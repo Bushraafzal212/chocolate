@@ -3,7 +3,7 @@ body{
 }
 header{
     width:100%;
-height: 30vh;
+height: 35vh;
 background-image: url(header.jpg);
 background-size: cover;
 background-attachment: fixed;
@@ -17,7 +17,15 @@ justify-content: center;
     color: rgb(101, 50, 50);
     padding-top: 130px;
 }
-
+footer{
+    width: 100%;
+background-color:rgb(96, 29, 29);
+color: white; 
+height: 10vh; 
+display: flex;
+align-items: center;
+ justify-content: center
+}
 ul li{
 list-style-type: none; 
 flex-direction: row;
@@ -37,6 +45,9 @@ display: flex;
 align-items: center; 
 justify-content: center;
 }
+a:hover {
+    color: rgb(36, 28, 105);
+  }
 .imagebox{
     width: 235px;
     height: 235px;
@@ -57,20 +68,20 @@ h3{
     word-spacing: 323px;
 }
 p1{
-    margin-left: 130px;
+    margin-left: 140px;
 }
 p2{
-    margin-left: 195px;
+    margin-left: 200px;
 }
 p3{
-    margin-left: 225px;
+    margin-left: 230px;
 }
 article{
     margin-bottom: 25px;
     color: rgb(15, 15, 15);
 }
 form{
-    height: 30vh;
+    height: 70vh;
     background-image: url(chocc.jpg);
     background-size:cover ;
     color: aliceblue;
@@ -86,48 +97,45 @@ input1[type=text], select, textarea {
     padding-left: 30px;
     margin-left: 320px;
 }
+p4{
+    background-size: cover;
+    width: 100%;
+    height: 37vh;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(chocc.jpg);
+    background-size: cover;
+}
 .imagebo{
-    width: 235px;
-    height: 235px;
-    border-radius: 30%;
+    width: 230px;
+    height: 230px;
+    border-radius: 10%;
     border: 1px solid black;
 }
-p4{
-        width: 100%;
-        height: 35vh;
-        padding-top: 20px;
-        display: flex;
-        justify-content:space-around;
-        background-image: url(chocc.jpg);
-        background-size: cover;
+label{
+    margin-left: 325px;
 }
 p5{
     font-size: 60px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 div1{
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
 }
 p6{
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
-}
-footer{
-    width: 100%;
-background-color:rgb(96, 29, 29);
-color: white; 
-height: 10vh; 
-display: flex;
-align-items: center;
-justify-content: center
 }
